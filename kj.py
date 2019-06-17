@@ -9,7 +9,7 @@ python script for
 '''
 DEPENDENCIES
 - created on Ubuntu linus 14.06
-- assumes bash environment & ffmpeg for making gif
+- assumes bash environment & ImageMagick for making gif
 - python assumes conda environment contained in mapping.yml
 '''
 
