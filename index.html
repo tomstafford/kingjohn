@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>
+	Animated Itinerary of King John
+	</title>
+	<style type="text/css">
+		div.slide {
+			width: 640px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		p.nav {
+			text-align: center;
+			padding: 6px;
+			background: #ddd;
+			font-size: 1.2rem;
+		}
+		p.head {
+			text-align: center;
+			font-weight: bold;
+			padding: 6px;
+			background: #ddd;
+			font-size: 2.0rem;
+		}
+		body {
+			background: #f6f6f6;
+		}
+		p.flannel {
+			font-size: 0.8rem;
+		}
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="main">
+
+	<div class="slide">
+	<p class = "head">Animated Itinerary of King John</p>
+	<p>Inspired by this <a href="https://twitter.com/Pseudo_Isidore/status/1101542697725317120">tweet of Charles West</a>, and using <a href="https://flowmap.blue/1lBG8PnDw1tbllA9hVXIKcYS7l8rRirrNH24z4ikAWtI">data from Richard Nevell</a></p>
+	<p class="nav">The Map: </p>
+<img src="repo/animated_itinerary.gif">
+	<p class="nav">Map 2: a frame per day</p>
+<img src="repo/animated_itinerary2.gif">
+</p>One frame per day (at twice the frame rate), changed the colour, location markers sized according to time spent at that point on that day (frame). Marker area = log (days spent there +0.5).</p>
+	<p class="nav">Map 3: a frame per year, 1199-1216</p>
+<img src="repo/animated_itinerary3.gif">
+</p>Thanks to <a href="https://github.com/jjon/Itinerary-of-John">Jon Crump</a> for the data, one frame per year for 1199 - 1216. Location markers as before (sized according to time spent at that point).</p>
+	<p class="nav">How I did this: </p>
+<p>Using Python with the Pandas library for data processing, Cartopy library for mapping and ImageMagick at the command line for stitching the frames together into a gif</p>
+	<p>All the files and code for maps 1 and 2 are <a href="repo">here</a></p>
+	<p>Files for running map 3 are here</a>
+	<p class="nav">See also: </p>
+	<p>J.J. Crump: <a href="http://neolography.com/timelines/JohnItinerary.html">The Itinerary of King John & the Rotuli Litterarum Patentium</a></p>
+	<p>Fanny Madeline: <a href="https://www.uea.ac.uk/documents/8763152/11245798/Fanny+Madeline%2C+How+to+Map+the+Angevin+Empire.docx">How to map the Angevin Empire?</a>
+	<p class="flannel"><a href="http://www.tomstafford.staff.shef.ac.uk/">Tom Stafford</a>, 2019. Theme adapted from <a href="http://interconnected.org/notes/2014/10/interconnected/">Matt Webb's</a>.</a></p>
+	</div>
+	
+	</div>
+
+</body>
+</html>
+
